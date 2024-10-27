@@ -40,7 +40,7 @@
 ### Стек технологий
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" title="Python" width="50" height="50"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" title="Jupyter Notebook" width="50" height="50"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" title="Jupyter Notebook" width="50" height="50"/>&nbsp; <img src="https://i.imgur.com/DZ0ilNv.png?1" title="CatBoost" width="50" height="50"/>&nbsp;
           
           
 
