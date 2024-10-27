@@ -28,6 +28,12 @@
 - адаптировать инвестиционные стратегии,
 - укреплять устойчивость пенсионной системы.
 
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" title="js" width="50" height="50"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" title="js" width="50" height="50"/>&nbsp;
+          
+          
+
 ## Код 1
 
 ```
