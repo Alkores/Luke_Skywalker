@@ -114,6 +114,8 @@ Recall на новых данных: 0.98
 ```
 ## Keras 
 
+В ходе работы мы перешли на Keras из-за его удобства, модульности, расширяемости и простоты использования. Keras предоставляет единый и понятный API, упрощая процесс создания и обучения нейронных сетей. Благодаря модульной архитектуре, каждый компонент модели (слои, функции активации, оптимизаторы) настраивается и комбинируется, что позволяет гибко адаптировать модель под задачу. Также, Keras легко расширяется, что позволяет добавлять собственные модули и функции для кастомизации. Код на Python делает модели читаемыми и компактными, ускоряя разработку и улучшая понимание работы моделей даже для новичков.
+
 ```
 Матрица путаницы:
 [[5986    0]
@@ -134,3 +136,61 @@ Precision: 1.00
 Recall: 0.99
 ```
 
+## Результат работы тестового кода
+```
+|Обработка групп: 100%|██████████| 94029/94029 [02:04<00:00, 754.00it/s]
+Новая таблица успешно создана и сохранена по пути:
+D:\Download\test_dataset_test_data_NPF\test_data\train1_data.csv
+Epoch 1/100
+D:\Anaconda\envs\NewEnv\lib\site-packages\keras\src\layers\core\dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2098/2098 ━━━━━━━━━━━━━━━━━━━━ 3s 984us/step - accuracy: 0.9900 - loss: 0.0574 - val_accuracy: 0.9996 - val_loss: 0.0012
+Epoch 2/100
+2098/2098 ━━━━━━━━━━━━━━━━━━━━ 2s 944us/step - accuracy: 0.9988 - loss: 0.0046 - val_accuracy: 0.9995 - val_loss: 0.0014
+Epoch 3/100
+2098/2098 ━━━━━━━━━━━━━━━━━━━━ 2s 969us/step - accuracy: 0.9996 - loss: 0.0014 - val_accuracy: 0.9998 - val_loss: 7.7695e-04
+Epoch 4/100
+2098/2098 ━━━━━━━━━━━━━━━━━━━━ 2s 927us/step - accuracy: 0.9994 - loss: 0.0023 - val_accuracy: 0.9998 - val_loss: 8.2601e-04
+Epoch 5/100
+2098/2098 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.9995 - loss: 0.0014 - val_accuracy: 0.9995 - val_loss: 0.0011
+Epoch 6/100
+2098/2098 ━━━━━━━━━━━━━━━━━━━━ 2s 983us/step - accuracy: 0.9996 - loss: 0.0016 - val_accuracy: 0.9998 - val_loss: 5.3372e-04
+Epoch 7/100
+2098/2098 ━━━━━━━━━━━━━━━━━━━━ 2s 982us/step - accuracy: 0.9995 - loss: 0.0010 - val_accuracy: 0.9996 - val_loss: 0.0012
+Epoch 8/100
+2098/2098 ━━━━━━━━━━━━━━━━━━━━ 2s 953us/step - accuracy: 0.9997 - loss: 8.9315e-04 - val_accuracy: 0.9996 - val_loss: 8.0746e-04
+Epoch 9/100
+2098/2098 ━━━━━━━━━━━━━━━━━━━━ 2s 920us/step - accuracy: 0.9997 - loss: 9.3055e-04 - val_accuracy: 0.9998 - val_loss: 0.0021
+Epoch 10/100
+2098/2098 ━━━━━━━━━━━━━━━━━━━━ 2s 944us/step - accuracy: 0.9997 - loss: 0.0011 - val_accuracy: 0.9998 - val_loss: 0.0014
+Epoch 11/100
+2098/2098 ━━━━━━━━━━━━━━━━━━━━ 2s 912us/step - accuracy: 0.9997 - loss: 0.0011 - val_accuracy: 0.9998 - val_loss: 0.0018
+Epoch 12/100
+2098/2098 ━━━━━━━━━━━━━━━━━━━━ 2s 920us/step - accuracy: 0.9996 - loss: 0.0015 - val_accuracy: 0.9998 - val_loss: 9.6404e-04
+Epoch 13/100
+2098/2098 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.9996 - loss: 0.0013 - val_accuracy: 0.9998 - val_loss: 0.0014
+Epoch 14/100
+2098/2098 ━━━━━━━━━━━━━━━━━━━━ 2s 1ms/step - accuracy: 0.9997 - loss: 6.1174e-04 - val_accuracy: 0.9996 - val_loss: 8.9930e-04
+Epoch 15/100
+2098/2098 ━━━━━━━━━━━━━━━━━━━━ 2s 934us/step - accuracy: 0.9997 - loss: 8.6523e-04 - val_accuracy: 0.9998 - val_loss: 0.0017
+Epoch 16/100
+2098/2098 ━━━━━━━━━━━━━━━━━━━━ 2s 949us/step - accuracy: 0.9997 - loss: 0.0012 - val_accuracy: 0.9998 - val_loss: 0.0012
+2611/2611 ━━━━━━━━━━━━━━━━━━━━ 1s 523us/step
+
+Предсказания для нового набора данных:
+       erly_pnsn_flg
+0                  0
+1                  0
+2                  0
+3                  0
+4                  0
+...              ...
+83519              0
+83520              0
+83521              0
+83522              0
+83523              0
+
+[83524 rows x 1 columns]
+
+```
