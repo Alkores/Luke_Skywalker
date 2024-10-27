@@ -44,7 +44,9 @@
 ### Стек технологий :computer:
 
 
-  <img src= "https://i.imgur.com/Y4JublQ.jpg" title="Jupyter Notebook" width="120" height="100"/>&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" title="Python" width="100" height="100"/>&nbsp; <img src="https://i.imgur.com/DZ0ilNv.png?1" title="CatBoost" width="120" height="100"/>&nbsp;
+  <img src= "https://i.imgur.com/Y4JublQ.jpg" title="Jupyter Notebook" width="120" height="100"/>&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" title="Python" width="100" height="100"/>&nbsp; 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original.svg" title="Keras" width="100" height="100"/>&nbsp;
+           <img src="https://i.imgur.com/DZ0ilNv.png?1" title="CatBoost" width="120" height="100"/>&nbsp;
 
 
 ## Подготовка данных обработка клиентов и транзакций :scissors:
